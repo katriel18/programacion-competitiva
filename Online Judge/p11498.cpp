@@ -1,3 +1,6 @@
+/*
+11498 - Division of Nlogonia
+*/
 
 #include <iostream>
 using namespace std;
@@ -13,15 +16,15 @@ int main(){
 			a=a-x;
 			b=b-y;	
 			if (a ==0 || b==0)
-			   cout<<"DIVISA"<<endl;
+			   cout<<"divisa"<<endl;
 	        else if (a >0 && b>0)
 	        	cout<<"NE"<<endl;
 	    	else if (a > 0 && b<0) 
-	        	cout<<"SE "<<endl;
+	        	cout<<"SE"<<endl;
 	        else if (a < 0 && b>0) 
-	        	cout<<"NO "<<endl;
+	        	cout<<"NO"<<endl;
 	        else
-	        	cout<<"SO "<<endl;  
+	        	cout<<"SO"<<endl;  
 	        i--;
    		}
     

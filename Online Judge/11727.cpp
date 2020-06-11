@@ -1,3 +1,6 @@
+/*
+11727 - Cost Cutting
+*/
 
 #include <iostream>
 using namespace std;
@@ -8,11 +11,11 @@ int main(){
     while(i--){				
         cin >> a >> b >>c;     
         if (a > b && a<c || a < b && a>c)
-        	cout<<"caso "<<k<<": "<<a<<endl;
+        	cout<<"Case "<<k<<": "<<a<<endl;
         else if (b > a && b<c ||b < a && b>c) 
-        	cout<<"caso "<<k<<": "<<b<<endl;
+        	cout<<"Case "<<k<<": "<<b<<endl;
         else
-        	cout<<"caso "<<k<<": "<<c<<endl;      
+        	cout<<"Case "<<k<<": "<<c<<endl;      
         k++;
     }
     return 0;
